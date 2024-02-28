@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #E0D48A;
+    
+}
+#wrapper{
+    margin: 0 auto;
+    height: auto;
+    width: 1100px;
+}
+.page-header{
+    width: 100%;
+    height: 250px;
+    border: 2px solid #C4BE89;
+    background-color: chartreuse;
+}
+.page-header .page-headername{
+    float: right;
+    width: auto;
+}
+.page-header .page-headername h1, h3{
+     margin-right: 50px;
+     font-size: 30px 30px;
+}
+.Body{
+    border: 2px solid black;
+    height: auto;
+    width: 100%;
+}
+.menu{
+    border: 3px solid #00000070;
+    height: 60px;
+    background-color:#99D9EA ;
+}
+.menu ul li{
+    float: left;
+    margin-right: 65px;
+    list-style: none;
+}
+.menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(57, 177, 224);
+}
+.menu ul li a:hover{
+    color: rgb(68, 13, 220);
+}
+.left{
+    width:22%;
+    float: left;
+    margin-top: 25px;
+}
+.right{
+    width:72%;
+    margin: 10px;
+    float: right;
+}
+.left-menu h3{
+    padding: 15px;
+    background-color: lightgreen;
+    margin: 0;
+    font-size: larger;
+
+}
+.left-menu ul li a{
+    color: green;
+    font-size: medium;
+}
+.left-menu ul{
+    padding-left: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.block{
+    float: left;
+    width: 22%;
+}
+.block h3{
+    padding: 15px;
+    background-color: lightgreen;
+    margin: 0;
+    font-size: larger;
+}
+.block h5{
+margin: 20px;
+margin-bottom: 10px;
+}
+.block p{
+    font-size: medium;
+    margin: 10px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.down{
+    float: right;
+}
+.downleft{
+    width: 35%;
+    margin-left: 50px;
+    /* padding: 10px; */
+    float: left;
+}
+.downleft a{
+    border: 2px solid black;
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 5px;
+}
+.downright{
+    width: 35%;
+    /* padding: 10px; */
+    margin-left: 5px;
+    float: right;
+}
+.downright a{
+    border: 2px solid black;
+    background-color: yellowgreen;
+    text-decoration: none;
+    padding: 5px;
+}
+.footer{
+    clear: both;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    font-size: larger;
+    margin: 5px;
+}
